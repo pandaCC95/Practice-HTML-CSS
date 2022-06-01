@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<style type="text/css">
+			*{margin: 0; padding: 0;}
+			img{display: block;}
+			.box{
+				width: 512px;
+				height: 512px;
+				position: relative;
+			}
+			.nav{
+				display: flex;
+				justify-content: flex-end;
+				position: absolute;
+				top: 512px;
+				right: 0;
+			}
+			.nav a{
+				width: 30px;
+				text-decoration: none;
+				text-align: center;
+				color: #FFFFFF;
+				background: #808080;
+				margin: 5px;
+			}
+			.nav a:hover{
+				background: hotpink;
+				color: #000000;
+			}
+			.img{
+				width: 512px;
+				height: 512px;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="nav">
+				<a href="#a">1</a>
+				<a href="#b">2</a>
+				<a href="#c">3</a>
+			</div>
+			<div class="img">
+				<img src="img/p1.png" id="a">
+				<img src="img/p2.png" id="b">
+				<img src="img/p3.png" id="c">				
+			</div>
+		</div>
+	</body>
+</html>

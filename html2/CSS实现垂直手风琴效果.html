@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS实现垂直手风琴效果</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .listbox {
+            width: 500px;
+            margin: 50px;
+        }
+        
+        .listbox .list a {
+            display: block;
+            height: 35px;
+            background: linear-gradient(#cecece, #8f8f8f);
+            border-radius: 5px;
+            text-decoration: none;
+            padding-left: 12px;
+            color: #424242;
+            line-height: 35px;
+        }
+        
+        .listbox .list p {
+            height: 0;
+            overflow: auto;
+            padding-left: 10px;
+            margin: 5px 0;
+            transition: 0.5s;
+        }
+        
+        .listbox .list {
+            position: relative;
+        }
+        
+        .listbox .list span {
+            width: 0;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 5px solid white;
+            border-bottom: 5px solid transparent;
+            position: absolute;
+            top: 15px;
+            right: 10px;
+        }
+        
+        .listbox .list:target p {
+            height: 100px;
+        }
+        
+        .listbox .list a:hover,
+        .listbox .list:target a {
+            background: lightblue;
+            color: white;
+        }
+        
+        .list
+    </style>
+</head>
+
+<body>
+    <div class="listbox">
+        <div class="list" id="list1">
+            <a href="#list1">Brand</a>
+            <span></span>
+            <p>
+                At first, the location 1 is the open area of the lounge with the glass and wooden partition. There are no walls between the AP1 and the computer which we use to scan the WIFI signals. Here is the table that record at the location 1. It shows that the
+                AP1 which nearest the computer has the highest signal strength. AP2 is the farthest device, so it has the lowest signal strength. AP 3 has the medium signal strength because of the medium distance from the location 1. The result can prove
+                that the distance and the materials both are important conditions that influence the wifi signal strengths. According to the data, it shows that the long distance will recede the signal strength. The wood wall and glass wall between the
+                location 1 and AP3 also let the signal strength decrease.
+            </p>
+        </div>
+        <div class="list" id="list2">
+            <a href="#list2">promotion</a>
+            <span></span>
+            <p id="promotion">
+                At first, the location 1 is the open area of the lounge with the glass and wooden partition. There are no walls between the AP1 and the computer which we use to scan the WIFI signals. Here is the table that record at the location 1. It shows that the
+                AP1 which nearest the computer has the highest signal strength. AP2 is the farthest device, so it has the lowest signal strength. AP 3 has the medium signal strength because of the medium distance from the location 1. The result can prove
+                that the distance and the materials both are important conditions that influence the wifi signal strengths. According to the data, it shows that the long distance will recede the signal strength. The wood wall and glass wall between the
+                location 1 and AP3 also let the signal strength decrease.
+            </p>
+        </div>
+        <div class="list" id="list3">
+            <a href="#list3">event</a>
+            <span></span>
+            <p id="event">
+                At first, the location 1 is the open area of the lounge with the glass and wooden partition. There are no walls between the AP1 and the computer which we use to scan the WIFI signals. Here is the table that record at the location 1. It shows that the
+                AP1 which nearest the computer has the highest signal strength. AP2 is the farthest device, so it has the lowest signal strength. AP 3 has the medium signal strength because of the medium distance from the location 1. The result can prove
+                that the distance and the materials both are important conditions that influence the wifi signal strengths. According to the data, it shows that the long distance will recede the signal strength. The wood wall and glass wall between the
+                location 1 and AP3 also let the signal strength decrease.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

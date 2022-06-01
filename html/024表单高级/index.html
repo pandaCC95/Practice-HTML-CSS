@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			form {
+				width: 600px;
+				border: 5px solid #000000;
+				margin: 0 auto;
+				padding: 10px;
+			}
+
+			fieldset {
+				margin-bottom: 10px;
+				padding: 10px;
+			}
+
+			.fd1 {
+				border: 1px dashed #000000;
+			}
+
+			.fd2 {
+				border: 1px dashed #000000;
+			}
+
+			legend {
+				border: 2px solid #000000;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="">
+			<form name="p1" method="post" action="">
+				<fieldset class="fd1">
+					<legend>用户登录</legend>
+					<p>姓名<input type="text" name="" id="" placeholder="enter the name" /></p>
+					<p>密码<input type="password" name="" id="" placeholder="enter the password" /></p>
+					<p><input type="submit" name="" id="" value="提交" />
+						<input type="reset" name="" id="" value="重置" /></p>
+				</fieldset>
+				<fieldset class="fd2">
+					<legend>注册</legend>
+					<p>性别：<label for="male">男</label><input type="radio" name="sex" id="male" />
+						<label for="female">女</label><input type="radio" name="sex" id="female" /></p>
+					<p>聊天<input type="checkbox" name="habit" id="" value="" />
+						睡觉<input type="checkbox" name="habit" id="" value="" />
+						打游戏<input type="checkbox" name="habit" id="" value="" />
+					</p>
+					<p>
+						year <select name="year">
+							<option value="">1991</option>
+							<option value="">1992</option>
+							<option value="">1993</option>
+						</select>
+						month<select>
+							<option value="">1</option>
+							<option value="">2</option>
+							<option value="">3</option>
+						</select>
+						day<select>
+							<option value="">1</option>
+							<option value="">2</option>
+							<option value="">3</option>
+						</select>
+					</p>
+					<p>
+						个人简介
+						<textarea rows="50" cols="50">
+
+					</textarea>
+					</p>
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>

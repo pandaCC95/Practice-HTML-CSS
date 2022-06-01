@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>滑动门技巧</title>
+		<style type="text/css">
+			*{
+				margin: 0; padding: 0;
+			}
+			.box{
+				height: 100px;
+				background: #FF0000;
+			}
+			.box ul li{
+				list-style: none;
+				float:left;
+			}
+			.box ul li a{
+				text-decoration: none;
+				color: #000000;
+				display: block;
+				height: 100px;
+				line-height: 100px;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+			.box ul li:hover{
+				background: url(img/navleft.jpg);
+				/* 左边两个框 */
+				no-repeat;
+			}
+			.box ul li:hover a{
+				background: url(img/navright.jpg);
+				/* 右边两个框 */
+				no-repeat right center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<ul>
+				<li><a href="#">首页首页首页</a></li>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">首页首页</a></li>
+				<li><a href="#">首页首页首页首页</a></li>
+				<li><a href="#">首页首页首页</a></li>
+			</ul>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+	</head>
+	<body>
+		<ul id="test">
+			
+		</ul>
+		<script type="text/javascript">
+			var arr = [0,1,2,3,4];
+			        let oUl = document.getElementById("test");
+			        var html = "";
+			
+			        //ES6
+			        for(var i in arr){
+			            html += `<li>
+			                <a href="">${arr[i]}</a>
+			            </li>`;
+			        }
+		</script>
+	</body>
+</html>

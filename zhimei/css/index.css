@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+/* top */
+header {
+	height: 34px;
+	background: linear-gradient(#ffffff, #cccccc);
+}
+/* 联系电话 */
+header p{
+	width: 950px;
+	margin: 0 auto;
+	text-align: right;
+	color: #333333;
+}
+#nav {
+	width: 950px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+}
+/* logo */
+#nav .logo{
+	float: left;
+	padding-top: 42px;
+	padding-left: 10px;
+	margin-right: 91px;
+}
+/* nav list */
+#nav ul{
+	float: left;
+}
+#nav ul li{
+	float: left;
+	font-size: 12px;
+	padding-top: 48px;
+}
+#nav ul li a{
+	float: left;
+	color: #666;
+	width: 80px;
+	text-align: center;
+	padding-bottom: 16px;
+}
+
+#nav ul li a:hover{
+	color: #1D1C1C;
+	border-bottom: 3px solid #1D1C1C;
+}
+/* banner */
+#banner img {
+	width: 100%;
+	display: block;
+}
+
+#link {
+	width: 950px;
+	height: 223px;
+	margin: 0 auto;
+}
+#link ul{
+	padding: 44px 35px;
+}
+#link ul li{
+	float: left;
+	margin-right: 82px;
+}
+#link ul li a img{
+	width: 49px;
+	display: block;
+	padding: 8px;
+	border-radius: 50%;
+	border: 1px solid #1D1C1C;
+}
+
+#case {
+	width: 950px;
+	height: 446px;
+	background: pink;
+	margin: 0 auto;
+}
+#case h3{
+	background: #1D1C1C;
+	color: darkred;
+	text-align: center;
+}
+#case fieldset{
+	text-align: center;
+	border-left: transparent;
+	border-right: transparent;
+	border-bottom: transparent;
+}
+#case fieldset ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+#case fieldset ul li a img{
+	width: 190px;
+}
+
+#about {
+	width: 950px;
+	height: 250px;
+	background: greenyellow;
+	margin: 0 auto;
+}
+
+#process {
+	width: 950px;
+	height: 245px;
+	background: skyblue;
+	margin: 0 auto;
+}
+
+footer {
+	height: 117px;
+	background: #eaeaea;
+	border-top: 1px solid #b4b4b4;
+}

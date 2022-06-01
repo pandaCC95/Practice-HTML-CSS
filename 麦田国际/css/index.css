@@ -1,0 +1,283 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+img{border: none;}
+/* header */
+header{
+	height: 102px;
+	background: #f00;
+	margin: 0 auto;
+}
+header .top{
+	width: 1140px;
+	height: 102px;
+	background: yellow;
+	margin: 0 auto;
+}
+header .top div{
+	float: left;
+	font-size: 13px;
+	line-height: 2;
+	color: #99999b;
+	background: url(../img/logo.png) no-repeat left center;
+	padding-left: 286px;
+}
+header .top div em{
+	display: block;
+	width: 78px;
+	border-left: 1px solid #99999B;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+header .top ul{
+	float: right;
+	padding-top: 30px;
+}
+header .top ul li{
+	float: left;
+}
+header .top ul li a{
+	color: #0101010;
+	padding: 0 16px;
+	font-size: 12px;
+	display: block;
+	height: 72px;
+	line-height: 72px;
+	color: #1A1B1F;
+}
+header .top ul li a:hover{
+	background: #FF0000;
+	color: #F7F7F7;
+	border-radius: 6px 6px 0 0 ;
+	/* 圆角 右上 左上 右下 左下 */
+}
+header .top ul li .active{
+	background: #FF0000;
+	color: #F7F7F7;
+	border-radius: 6px 6px 0 0 ;
+	/* 圆角 右上 左上 右下 左下 */
+}
+/* banner */
+#banner img{
+	width: 100%;
+	display: block;
+}
+/* partners */
+#partners{
+	height: 387px;
+	background: #f7f7f7;
+}
+.brand{
+	width: 1140px;
+	height: 289px;
+	background: #f0f;
+	margin: 0 auto;
+	padding-top: 39px;
+	padding-bottom: 59px;
+	text-align: center;
+}
+.brand h3{
+	font-size: 21px;
+	color: #1A1B1F;
+	padding-bottom: 20px;
+}
+.brand p{
+	font-size: 12px;
+	color: #99999B;
+	padding-bottom: 28px;
+}
+.brand ul{
+	border-top: 1px solid #ededed;
+	border-left: 1px solid #ededed;
+	overflow: hidden;
+}
+.brand ul li{
+	float: left;
+}
+.brand ul li a{
+	display: block;
+	width: 188px;
+	height: 100px;
+	border-right: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	background: url(../img/Image%202.png) center no-repeat;
+}
+/* advantage */
+#advantage{
+	height: 541px;
+	background: #1a1b1f;
+}
+.advantages{
+	width: 1140px;
+	height: 423px;
+	background: #0ff;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 52px;
+	padding-bottom: 66px;
+}
+.advantages h3{
+	font-size: 21px;
+	color: #FFFFFF;
+	padding-bottom: 21px;
+}
+.advantages h6{
+	font-size: 12px;
+	color: #CCCECC
+}
+.advantages ul{
+	width: 1195px;
+	padding-top: 110px;
+}
+.advantages ul li{
+	float: left;
+	width: 340px;
+	height: 260px;
+	background: #d1d1d1;
+	margin-right: 58px;
+}
+.advantages ul li a p{
+	font-size: 12px;
+	line-height: 30px;
+	padding: 0 45px;
+    color: #010100;
+}
+.advantages ul li a b{
+	color: #f15964;
+	display: block;
+	font-size: 16px;
+	padding-bottom: 19px;
+}
+/* case */
+#case{
+	width: 1140px;
+	height: 808px;
+	background: #FFFF00;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 53px;
+	overflow: hidden;
+}
+.cases h3{
+	font-size: 21px;
+	padding-bottom: 21px;
+}
+.cases h6{
+	font-size: 12px;
+	color: #CCCECC;
+	padding-bottom: 31px;
+}
+.cases ul{
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 18px;
+	overflow: hidden;
+}
+.cases ul li{
+	float: left;
+	width: 200px;
+	height: 47px;
+	background: #f00;
+}
+.cases ul li a{
+	height: 40px;
+	display: block;
+	background: #666666;
+	color: #fff;
+	font-size: 14px;
+	line-height: 40px;
+}
+.cases ul li:hover a{
+	background: #F34244;
+}
+.cases ul li:hover{
+	background: url(../img/Image%203.png) no-repeat center bottom;
+}
+.cases ol{
+	width: 1170px;
+}
+.cases ol li{
+	float: left;
+	margin-right: 30px;
+	width: 360px;
+	margin-bottom: 30px;
+}
+.cases ol li img{
+	display: block;
+}
+.cases ol li
+/* news */
+#news{
+	height: 349px;
+	background: #f2f2f2;
+	margin: 0 auto;
+}
+.news{
+	width: 1140px;
+	height: 349px;
+	margin: 0 auto;
+	background: #FF00FF;
+}
+.news div{
+	float: left;
+	width: 340px;
+	margin-right: 60px;
+}
+.news .last{
+	margin-right: 0;
+}
+.news div h3{
+	padding-top: 46px;
+	font-size: 16px;
+	color: #000;
+	padding-bottom: 25px;
+}
+.news div ul{
+	overflow: hidden;
+}
+.news div ul li{
+	font-size: 12px;
+	color: #888888;
+	line-height: 30px;
+}
+.news div ul li a{
+	color: #888888;
+	float: left;
+}
+.news div ul li span{
+	float: right;
+}
+.news div .more{
+	display: block;
+	width: 117px;
+	height: 32px;
+	background: #F75A53;
+	padding-top: 17px;
+	color: #F7F7F7;
+}
+/* bottom */
+bottom{
+	height: 136px;
+	background: #363636;
+}
+.bottom{
+	width: 1137px;
+	height: 136px;
+	background: #0f0;
+	margin: 0 auto;
+}
+.bottom ul{
+	width: 510px;
+	margin: 0 auto;
+}
+.bottom ul li{
+	float: left;
+	font-size: 12px;
+	color: #6F726F;
+}
+.bottom ul li a{
+	color: #6F726F;
+}
+.bottom ul li span{
+	padding: 9px;
+}

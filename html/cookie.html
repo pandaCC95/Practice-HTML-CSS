@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 
+        HTTP:应用层协议
+            超文本传输协议
+            从web服务器传输超文本到本地浏览器的传输协议
+
+            无状态（不记录状态）的协议
+    
+
+    cookie 缓存在本地客户端的数据
+    cookie的 增、删。改、查
+
+            浏览器关闭，cookie自动消失
+
+
+     -->
+</head>
+<body>
+    <script type="text/javascript">
+        /* //查询cookie
+        console.log(document.cookie);
+        //获取到的cookie是一个字符串
+        //设置(增加)cookie
+        document.cookie = "username=honey";
+
+        //oDate: 时间对象
+        var oDate = new Date();
+        //设置3天后cookie过期
+        oDate.setDate(oDate.getDate()+3)        
+        document.cookie = "username=honey;epires=" + oDate;
+
+        //修改cookie
+        document.cookie = "username=honey";
+        document.cookie = "username=honey1";
+
+        //删除cookie
+        var oDate = new Date();
+        //通过设置一个过去时间，来删除cookie
+        oDate.setDate(oDate.getDate()-1);
+        document.cookie = "username=honey" + oDate; */
+
+
+        /* 
+            cookie方法 函数封装
+            setCookie()
+
+            getCookie()
+
+            removeCookie()
+        
+         */
+         //；expires=   是分号；
+
+         //setCookie()
+         function setCookie(name, value, day){
+             var oDate = new Date();
+             oDate.setDate(oDate.getDate() + day);
+            document.cookie = name + "=" + value + ";expires=" + oDate;
+         }
+         setCookie("name1", "honey1", 1);
+         setCookie("name2", "honey2", 1);
+
+         console.log(document.cookie);
+
+
+         
+         //getCookie()
+         function getCookie(name){
+             //获取到的cookie是个字符串
+            var str = document.cookie;
+			//把字符串用； 来分割
+			var arr = str.split("; ");
+			for(var i = 0; i < arr.length; i++){
+				var arr1 = arr[i].split("=");
+				if(arr1[0] == name){
+					return arr1[1];
+				}
+				
+			}
+         }
+		 console.log(getCookie("name1")); //honey1
+		 console.log(getCookie("name2")); //honey2
+
+         //removeCookie()
+		 function removeCookie(name){
+			 setCookie(name, 1, -1);
+		 }
+		 removeCookie("name1");
+		 console.log(getCookie("name1")); //undefined
+    </script>
+</body>
+</html>

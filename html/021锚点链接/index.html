@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>图片轮播</title>
+		<style type="text/css">
+			*{
+				margin: 0;padding: 0;
+			}
+			img{
+				display: block;
+			}
+			.box{
+				width: 512px;
+				height: 512px;
+				border: #000000 solid;
+				margin: 50px auto;
+				position: relative;
+			}
+			.button a{
+				float: left;
+				width: 30px;
+				height: 30px;
+				background-color: rgba(0,0,0,.5);
+				text-align: center;line-height: 30px;color: #FFFFFF;text-decoration: none;	
+				margin-right: 5px;
+			}
+			.button a:hover{
+				background: rgba(0,0,0,1);
+			}
+			.button{
+				position: absolute;
+				right: 5px; bottom: 10px;
+			}
+			.list{
+				width: 512px;
+				height: 512px;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="button">
+				<a href="#p1">1</a>
+				<a href="#p2">2</a>
+				<a href="#p3">3</a>
+			</div>
+			<div class="list">
+				<img src="image/p1.png" id="p1" />
+				<img src="image/p2.png" id="p2" />
+				<img src="image/p3.png" id="p3" />
+			</div>
+		</div>
+	</body>
+</html>

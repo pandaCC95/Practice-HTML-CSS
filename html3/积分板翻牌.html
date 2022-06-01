@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			section{
+				perspective: 1200px;
+			}
+			.box {
+				width: 300px;
+				height: 534px;
+				border: 1px solid #000000;
+				margin: 100px auto;
+				transform-style: preserve-3d;
+				position: relative;
+				transition: all 2s;
+			}
+
+			img {
+				display: block;
+				border: 0;
+
+			}
+
+			.box p {
+				width: 300px;
+				height: 534px;
+				background: rgba(255, 0, 0, .5);
+				transform: rotateY(180deg);
+				position: absolute;
+				top: 0;
+			}
+
+			.box:hover {
+				transform: rotateY(180deg);
+			}
+		</style>
+	</head>
+	<body>
+		<section>
+			<div class="box">
+				<img src="img/u=857167033,2345648207&fm=26&gp=0.jpg" />
+				<p>我是背面</p>
+			</div>
+		</section>
+	</body>
+</html>
+{
+    "view-in-browser.customBrowser": "chrome"
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			/*p {
+				width: 200px;
+				height: 200px;
+				background: green;
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				margin-top: -100px;
+				margin-left: -100px;
+			}*/
+			/* 第一种办法 定位+marigin 浮窗固定*/
+			/* 第二种方法 定位+transform 
+				缺点：低版本浏览器不兼容
+				浮窗固定*/
+			/* 第三种方法：定位+ 技巧 
+				用的多 灵活
+				浮窗固定
+			/*p {
+				width: 200px;
+				height: 200px;
+				background: green;
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				transform: translate(-100px,-100px);
+			}*/
+			/*p {
+				width: 200px;
+				height: 200px;
+				background: green;
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				right: 0px;
+				bottom: 0px;
+				margin: auto;
+			}*/
+			/* 第四种方法：浮窗不确定 */
+			html,body{width: 100%; height: 100%;}
+			body{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			p {
+				width: 200px;
+				height: 200px;
+				background: green;
+			}
+		</style>
+	</head>
+	<body>
+			<p></p>
+	</body>
+</html>
