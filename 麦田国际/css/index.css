@@ -5,13 +5,11 @@ img{border: none;}
 /* header */
 header{
 	height: 102px;
-	background: #f00;
 	margin: 0 auto;
 }
 header .top{
 	width: 1140px;
 	height: 102px;
-	background: yellow;
 	margin: 0 auto;
 }
 header .top div{
@@ -70,7 +68,6 @@ header .top ul li .active{
 .brand{
 	width: 1140px;
 	height: 289px;
-	background: #f0f;
 	margin: 0 auto;
 	padding-top: 39px;
 	padding-bottom: 59px;
@@ -110,7 +107,6 @@ header .top ul li .active{
 .advantages{
 	width: 1140px;
 	height: 423px;
-	background: #0ff;
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 52px;
@@ -133,14 +129,13 @@ header .top ul li .active{
 	float: left;
 	width: 340px;
 	height: 260px;
-	background: #d1d1d1;
 	margin-right: 58px;
 }
 .advantages ul li a p{
 	font-size: 12px;
 	line-height: 30px;
 	padding: 0 45px;
-    color: #010100;
+    color: #CCCECC;
 }
 .advantages ul li a b{
 	color: #f15964;
@@ -152,7 +147,6 @@ header .top ul li .active{
 #case{
 	width: 1140px;
 	height: 808px;
-	background: #FFFF00;
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 53px;
@@ -216,7 +210,6 @@ header .top ul li .active{
 	width: 1140px;
 	height: 349px;
 	margin: 0 auto;
-	background: #FF00FF;
 }
 .news div{
 	float: left;
@@ -263,7 +256,6 @@ bottom{
 .bottom{
 	width: 1137px;
 	height: 136px;
-	background: #0f0;
 	margin: 0 auto;
 }
 .bottom ul{
